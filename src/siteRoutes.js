@@ -5,6 +5,9 @@ import CorPrimaria from './pages/corPrimaria'
 import Frequencia from './pages/frequencia'
 import Ingresso from './pages/ingresso'
 import MaiorNumero from './pages/maiorNumero'
+import Dobro from './pages/dobro'
+import Somarget from './pages/somarget'
+import Somarpost from './pages/somarpost'
 
 export default function siteRoutes() {
     return(
@@ -15,7 +18,9 @@ export default function siteRoutes() {
                 <Route path= '/frequencia' element={<Frequencia />}  />
                 <Route path= '/ingresso' element={<Ingresso />}  />
                 <Route path= '/maiorNumero' element={<MaiorNumero />}  />
-
+                <Route path= '/dobro' element={<Dobro />}  />
+                <Route path= '/somarget' element={<Somarget />}  />
+                <Route path= '/somarpost' element={<Somarpost />}  />
             </Routes>
         </BrowserRouter>
     )
