@@ -9,6 +9,7 @@ import Dobro from './pages/dobro'
 import Somarget from './pages/somarget'
 import Somarpost from './pages/somarpost'
 import Tabuada from './pages/tabuada'
+import Media from './pages/media'
 
 export default function siteRoutes() {
     return(
@@ -23,6 +24,7 @@ export default function siteRoutes() {
                 <Route path= '/somarget' element={<Somarget />}  />
                 <Route path= '/somarpost' element={<Somarpost />}  />
                 <Route path= '/tabuada' element={<Tabuada />}  />
+                <Route path= '/media' element={<Media />}  />
             </Routes>
         </BrowserRouter>
     )
