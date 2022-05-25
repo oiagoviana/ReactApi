@@ -14,6 +14,7 @@ export default function Index(){
                 <li> <Link to='/dobro'> Dobro </Link> </li>
                 <li> <Link to='/somarget'> Somar(GET) </Link> </li>
                 <li> <Link to='/somarpost'> Somar(POST) </Link> </li>
+                <li> <Link to='/tabuada'> Tabuada </Link> </li>
             </ul>
         </main>
     )
