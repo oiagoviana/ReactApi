@@ -7,7 +7,7 @@ export default function Index(){
     const [resp, setResp] = useState(0);
 
     async function calcular(){
-        const resp = await axios.get('http://localhost:5000/somar?', numeroUm, numeroDois);
+        const resp = await axios.get(`http://localhost:5000/somar?a=${numeroUm}&b=${numeroDois}`, numeroUm, numeroDois);
         setResp(resp.data.soma);
     }
 

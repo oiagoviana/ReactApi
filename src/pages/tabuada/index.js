@@ -7,7 +7,7 @@ export default function Index () {
     const [resposta, setReposta] = useState([]);
 
     async function tabuada () {
-        const resp = await axios.get('http://localhost:5000/tabuada/' + numero );
+        const resp = await axios.get(`http://localhost:5000/tabuada?n=${numero}`, numero );
         setReposta(resp.data.tabuada)
     }
 
